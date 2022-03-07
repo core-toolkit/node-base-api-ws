@@ -1,3 +1,3 @@
 module.exports = (_, { addAppToRoot }) => {
-  addAppToRoot('ApiWs');
+  addAppToRoot('ApiWs', 'node-base-api-ws');
 };
