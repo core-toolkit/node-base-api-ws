@@ -1,0 +1,26 @@
+{
+  "name": "@core-toolkit/node-base-api-ws",
+  "version": "0.0.1",
+  "description": "WebSocket plugin for node-base",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/core-toolkit/node-base-api-ws.git"
+  },
+  "author": "Alexander Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/core-toolkit/node-base-api-ws/issues"
+  },
+  "homepage": "https://github.com/core-toolkit/node-base-api-ws#readme",
+  "devDependencies": {
+    "@core-toolkit/node-base-dev": "0.x"
+  },
+  "dependencies": {
+    "@core-toolkit/node-base": "0.x",
+    "socket.io": "^4.4.1"
+  }
+}
