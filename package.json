@@ -1,6 +1,6 @@
 {
   "name": "@core-toolkit/node-base-api-ws",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "WebSocket plugin for node-base",
   "main": "src/index.js",
   "scripts": {
@@ -16,11 +16,13 @@
     "url": "https://github.com/core-toolkit/node-base-api-ws/issues"
   },
   "homepage": "https://github.com/core-toolkit/node-base-api-ws#readme",
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  },
   "devDependencies": {
     "@core-toolkit/node-base-dev": "0.x"
   },
-  "dependencies": {
-    "@core-toolkit/node-base": "0.x",
-    "socket.io": "^4.4.1"
+  "peerDependencies": {
+    "@core-toolkit/node-base": "0.x"
   }
 }
